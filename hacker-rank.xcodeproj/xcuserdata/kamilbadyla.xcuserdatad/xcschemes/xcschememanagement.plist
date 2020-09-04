@@ -4,15 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>climbing-the-leaderboard.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>magic-square.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>ED09A34425024C4B00A9FFB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED09A34F250293C000A9FFB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED09A35A250295CD00A9FFB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

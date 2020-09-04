@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED09A34425024C4B00A9FFB6"
-               BuildableName = "magic-square"
-               BlueprintName = "magic-square"
+               BlueprintIdentifier = "ED09A34F250293C000A9FFB6"
+               BuildableName = "climbing-the-leaderboard"
+               BlueprintName = "climbing-the-leaderboard"
+               ReferencedContainer = "container:hacker-rank.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ED09A35A250295CD00A9FFB6"
+               BuildableName = "tests.xctest"
+               BlueprintName = "tests"
                ReferencedContainer = "container:hacker-rank.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +58,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED09A34425024C4B00A9FFB6"
-            BuildableName = "magic-square"
-            BlueprintName = "magic-square"
+            BlueprintIdentifier = "ED09A34F250293C000A9FFB6"
+            BuildableName = "climbing-the-leaderboard"
+            BlueprintName = "climbing-the-leaderboard"
             ReferencedContainer = "container:hacker-rank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -68,9 +82,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED09A34425024C4B00A9FFB6"
-            BuildableName = "magic-square"
-            BlueprintName = "magic-square"
+            BlueprintIdentifier = "ED09A34F250293C000A9FFB6"
+            BuildableName = "climbing-the-leaderboard"
+            BlueprintName = "climbing-the-leaderboard"
             ReferencedContainer = "container:hacker-rank.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

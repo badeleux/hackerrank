@@ -8,10 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		ED09A34825024C4B00A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A34725024C4B00A9FFB6 /* main.swift */; };
+		ED09A353250293C000A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A352250293C000A9FFB6 /* main.swift */; };
+		ED09A35E250295CD00A9FFB6 /* tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A35D250295CD00A9FFB6 /* tests.swift */; };
+		ED09A3642502968100A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A352250293C000A9FFB6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		ED09A34325024C4B00A9FFB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ED09A34E250293C000A9FFB6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +37,29 @@
 /* Begin PBXFileReference section */
 		ED09A34525024C4B00A9FFB6 /* magic-square */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "magic-square"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED09A34725024C4B00A9FFB6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED09A350250293C000A9FFB6 /* climbing-the-leaderboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "climbing-the-leaderboard"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED09A352250293C000A9FFB6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED09A35B250295CD00A9FFB6 /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED09A35D250295CD00A9FFB6 /* tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tests.swift; sourceTree = "<group>"; };
+		ED09A35F250295CD00A9FFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ED09A34225024C4B00A9FFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A34D250293C000A9FFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A358250295CD00A9FFB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				ED09A34625024C4B00A9FFB6 /* magic-square */,
+				ED09A351250293C000A9FFB6 /* climbing-the-leaderboard */,
+				ED09A35C250295CD00A9FFB6 /* tests */,
 				ED09A32B25024B1A00A9FFB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				ED09A34525024C4B00A9FFB6 /* magic-square */,
+				ED09A350250293C000A9FFB6 /* climbing-the-leaderboard */,
+				ED09A35B250295CD00A9FFB6 /* tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +95,23 @@
 				ED09A34725024C4B00A9FFB6 /* main.swift */,
 			);
 			path = "magic-square";
+			sourceTree = "<group>";
+		};
+		ED09A351250293C000A9FFB6 /* climbing-the-leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				ED09A352250293C000A9FFB6 /* main.swift */,
+			);
+			path = "climbing-the-leaderboard";
+			sourceTree = "<group>";
+		};
+		ED09A35C250295CD00A9FFB6 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED09A35D250295CD00A9FFB6 /* tests.swift */,
+				ED09A35F250295CD00A9FFB6 /* Info.plist */,
+			);
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +134,40 @@
 			productReference = ED09A34525024C4B00A9FFB6 /* magic-square */;
 			productType = "com.apple.product-type.tool";
 		};
+		ED09A34F250293C000A9FFB6 /* climbing-the-leaderboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED09A356250293C000A9FFB6 /* Build configuration list for PBXNativeTarget "climbing-the-leaderboard" */;
+			buildPhases = (
+				ED09A34C250293C000A9FFB6 /* Sources */,
+				ED09A34D250293C000A9FFB6 /* Frameworks */,
+				ED09A34E250293C000A9FFB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "climbing-the-leaderboard";
+			productName = "climbing-the-leaderboard";
+			productReference = ED09A350250293C000A9FFB6 /* climbing-the-leaderboard */;
+			productType = "com.apple.product-type.tool";
+		};
+		ED09A35A250295CD00A9FFB6 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED09A360250295CD00A9FFB6 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				ED09A357250295CD00A9FFB6 /* Sources */,
+				ED09A358250295CD00A9FFB6 /* Frameworks */,
+				ED09A359250295CD00A9FFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tests;
+			productName = tests;
+			productReference = ED09A35B250295CD00A9FFB6 /* tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +179,12 @@
 				ORGANIZATIONNAME = "Kamil Badyla";
 				TargetAttributes = {
 					ED09A34425024C4B00A9FFB6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					ED09A34F250293C000A9FFB6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					ED09A35A250295CD00A9FFB6 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
@@ -111,9 +203,21 @@
 			projectRoot = "";
 			targets = (
 				ED09A34425024C4B00A9FFB6 /* magic-square */,
+				ED09A34F250293C000A9FFB6 /* climbing-the-leaderboard */,
+				ED09A35A250295CD00A9FFB6 /* tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED09A359250295CD00A9FFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED09A34125024C4B00A9FFB6 /* Sources */ = {
@@ -121,6 +225,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED09A34825024C4B00A9FFB6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A34C250293C000A9FFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED09A353250293C000A9FFB6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A357250295CD00A9FFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED09A3642502968100A9FFB6 /* main.swift in Sources */,
+				ED09A35E250295CD00A9FFB6 /* tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +383,64 @@
 			};
 			name = Release;
 		};
+		ED09A354250293C000A9FFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED09A355250293C000A9FFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED09A361250295CD00A9FFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				INFOPLIST_FILE = tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.sciencespir.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED09A362250295CD00A9FFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				INFOPLIST_FILE = tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.sciencespir.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +458,24 @@
 			buildConfigurations = (
 				ED09A34A25024C4B00A9FFB6 /* Debug */,
 				ED09A34B25024C4B00A9FFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED09A356250293C000A9FFB6 /* Build configuration list for PBXNativeTarget "climbing-the-leaderboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED09A354250293C000A9FFB6 /* Debug */,
+				ED09A355250293C000A9FFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED09A360250295CD00A9FFB6 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED09A361250295CD00A9FFB6 /* Debug */,
+				ED09A362250295CD00A9FFB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
