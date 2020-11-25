@@ -3,14 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED076FD52560123800F76F9C /* BowRx in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FD42560123800F76F9C /* BowRx */; };
+		ED076FD72560123800F76F9C /* BowEffectsGenerators in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FD62560123800F76F9C /* BowEffectsGenerators */; };
+		ED076FD92560123800F76F9C /* BowRecursionSchemes in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FD82560123800F76F9C /* BowRecursionSchemes */; };
+		ED076FDB2560123800F76F9C /* BowEffects in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FDA2560123800F76F9C /* BowEffects */; };
+		ED076FDD2560123800F76F9C /* BowRxGenerators in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FDC2560123800F76F9C /* BowRxGenerators */; };
+		ED076FDF2560123800F76F9C /* BowLaws in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FDE2560123800F76F9C /* BowLaws */; };
+		ED076FE12560123800F76F9C /* BowGenerators in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FE02560123800F76F9C /* BowGenerators */; };
+		ED076FE32560123800F76F9C /* BowFreeGenerators in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FE22560123800F76F9C /* BowFreeGenerators */; };
+		ED076FE52560123800F76F9C /* BowOpticsLaws in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FE42560123800F76F9C /* BowOpticsLaws */; };
+		ED076FE72560123800F76F9C /* Bow in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FE62560123800F76F9C /* Bow */; };
+		ED076FE92560123800F76F9C /* BowOptics in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FE82560123800F76F9C /* BowOptics */; };
+		ED076FEB2560123800F76F9C /* BowFree in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FEA2560123800F76F9C /* BowFree */; };
+		ED076FED2560123800F76F9C /* BowEffectsLaws in Frameworks */ = {isa = PBXBuildFile; productRef = ED076FEC2560123800F76F9C /* BowEffectsLaws */; };
 		ED09A34825024C4B00A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A34725024C4B00A9FFB6 /* main.swift */; };
 		ED09A353250293C000A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A352250293C000A9FFB6 /* main.swift */; };
 		ED09A35E250295CD00A9FFB6 /* tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A35D250295CD00A9FFB6 /* tests.swift */; };
 		ED09A3642502968100A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A352250293C000A9FFB6 /* main.swift */; };
+		ED09A36C25060E2000A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A36B25060E2000A9FFB6 /* main.swift */; };
+		ED09A3782506195900A9FFB6 /* matrix_rotation_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A3772506195900A9FFB6 /* matrix_rotation_tests.swift */; };
+		ED09A37D2506195D00A9FFB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09A36B25060E2000A9FFB6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +48,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ED09A36725060E2000A9FFB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +67,11 @@
 		ED09A35B250295CD00A9FFB6 /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED09A35D250295CD00A9FFB6 /* tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tests.swift; sourceTree = "<group>"; };
 		ED09A35F250295CD00A9FFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED09A36925060E2000A9FFB6 /* matrix-rotation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "matrix-rotation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED09A36B25060E2000A9FFB6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ED09A3752506195900A9FFB6 /* matrix-rotation-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "matrix-rotation-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED09A3772506195900A9FFB6 /* matrix_rotation_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matrix_rotation_tests.swift; sourceTree = "<group>"; };
+		ED09A3792506195900A9FFB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +79,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED076FE12560123800F76F9C /* BowGenerators in Frameworks */,
+				ED076FE72560123800F76F9C /* Bow in Frameworks */,
+				ED076FDF2560123800F76F9C /* BowLaws in Frameworks */,
+				ED076FD92560123800F76F9C /* BowRecursionSchemes in Frameworks */,
+				ED076FD72560123800F76F9C /* BowEffectsGenerators in Frameworks */,
+				ED076FE92560123800F76F9C /* BowOptics in Frameworks */,
+				ED076FDB2560123800F76F9C /* BowEffects in Frameworks */,
+				ED076FE32560123800F76F9C /* BowFreeGenerators in Frameworks */,
+				ED076FED2560123800F76F9C /* BowEffectsLaws in Frameworks */,
+				ED076FDD2560123800F76F9C /* BowRxGenerators in Frameworks */,
+				ED076FEB2560123800F76F9C /* BowFree in Frameworks */,
+				ED076FD52560123800F76F9C /* BowRx in Frameworks */,
+				ED076FE52560123800F76F9C /* BowOpticsLaws in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +109,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED09A36625060E2000A9FFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A3722506195900A9FFB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,6 +132,8 @@
 				ED09A34625024C4B00A9FFB6 /* magic-square */,
 				ED09A351250293C000A9FFB6 /* climbing-the-leaderboard */,
 				ED09A35C250295CD00A9FFB6 /* tests */,
+				ED09A36A25060E2000A9FFB6 /* matrix-rotation */,
+				ED09A3762506195900A9FFB6 /* matrix-rotation-tests */,
 				ED09A32B25024B1A00A9FFB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +144,8 @@
 				ED09A34525024C4B00A9FFB6 /* magic-square */,
 				ED09A350250293C000A9FFB6 /* climbing-the-leaderboard */,
 				ED09A35B250295CD00A9FFB6 /* tests.xctest */,
+				ED09A36925060E2000A9FFB6 /* matrix-rotation */,
+				ED09A3752506195900A9FFB6 /* matrix-rotation-tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +175,23 @@
 			path = tests;
 			sourceTree = "<group>";
 		};
+		ED09A36A25060E2000A9FFB6 /* matrix-rotation */ = {
+			isa = PBXGroup;
+			children = (
+				ED09A36B25060E2000A9FFB6 /* main.swift */,
+			);
+			path = "matrix-rotation";
+			sourceTree = "<group>";
+		};
+		ED09A3762506195900A9FFB6 /* matrix-rotation-tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED09A3772506195900A9FFB6 /* matrix_rotation_tests.swift */,
+				ED09A3792506195900A9FFB6 /* Info.plist */,
+			);
+			path = "matrix-rotation-tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,8 +206,24 @@
 			buildRules = (
 			);
 			dependencies = (
+				ED076FEF2562625D00F76F9C /* PBXTargetDependency */,
 			);
 			name = "magic-square";
+			packageProductDependencies = (
+				ED076FD42560123800F76F9C /* BowRx */,
+				ED076FD62560123800F76F9C /* BowEffectsGenerators */,
+				ED076FD82560123800F76F9C /* BowRecursionSchemes */,
+				ED076FDA2560123800F76F9C /* BowEffects */,
+				ED076FDC2560123800F76F9C /* BowRxGenerators */,
+				ED076FDE2560123800F76F9C /* BowLaws */,
+				ED076FE02560123800F76F9C /* BowGenerators */,
+				ED076FE22560123800F76F9C /* BowFreeGenerators */,
+				ED076FE42560123800F76F9C /* BowOpticsLaws */,
+				ED076FE62560123800F76F9C /* Bow */,
+				ED076FE82560123800F76F9C /* BowOptics */,
+				ED076FEA2560123800F76F9C /* BowFree */,
+				ED076FEC2560123800F76F9C /* BowEffectsLaws */,
+			);
 			productName = "magic-square";
 			productReference = ED09A34525024C4B00A9FFB6 /* magic-square */;
 			productType = "com.apple.product-type.tool";
@@ -168,6 +262,40 @@
 			productReference = ED09A35B250295CD00A9FFB6 /* tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		ED09A36825060E2000A9FFB6 /* matrix-rotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED09A36D25060E2000A9FFB6 /* Build configuration list for PBXNativeTarget "matrix-rotation" */;
+			buildPhases = (
+				ED09A36525060E2000A9FFB6 /* Sources */,
+				ED09A36625060E2000A9FFB6 /* Frameworks */,
+				ED09A36725060E2000A9FFB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "matrix-rotation";
+			productName = "matrix-rotation";
+			productReference = ED09A36925060E2000A9FFB6 /* matrix-rotation */;
+			productType = "com.apple.product-type.tool";
+		};
+		ED09A3742506195900A9FFB6 /* matrix-rotation-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED09A37A2506195900A9FFB6 /* Build configuration list for PBXNativeTarget "matrix-rotation-tests" */;
+			buildPhases = (
+				ED09A3712506195900A9FFB6 /* Sources */,
+				ED09A3722506195900A9FFB6 /* Frameworks */,
+				ED09A3732506195900A9FFB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "matrix-rotation-tests";
+			productName = "matrix-rotation-tests";
+			productReference = ED09A3752506195900A9FFB6 /* matrix-rotation-tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +315,12 @@
 					ED09A35A250295CD00A9FFB6 = {
 						CreatedOnToolsVersion = 11.7;
 					};
+					ED09A36825060E2000A9FFB6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					ED09A3742506195900A9FFB6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
 				};
 			};
 			buildConfigurationList = ED09A32525024B1A00A9FFB6 /* Build configuration list for PBXProject "hacker-rank" */;
@@ -198,6 +332,9 @@
 				Base,
 			);
 			mainGroup = ED09A32125024B1A00A9FFB6;
+			packageReferences = (
+				ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */,
+			);
 			productRefGroup = ED09A32B25024B1A00A9FFB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -205,12 +342,21 @@
 				ED09A34425024C4B00A9FFB6 /* magic-square */,
 				ED09A34F250293C000A9FFB6 /* climbing-the-leaderboard */,
 				ED09A35A250295CD00A9FFB6 /* tests */,
+				ED09A36825060E2000A9FFB6 /* matrix-rotation */,
+				ED09A3742506195900A9FFB6 /* matrix-rotation-tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ED09A359250295CD00A9FFB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A3732506195900A9FFB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,7 +391,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED09A36525060E2000A9FFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED09A36C25060E2000A9FFB6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED09A3712506195900A9FFB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED09A37D2506195D00A9FFB6 /* main.swift in Sources */,
+				ED09A3782506195900A9FFB6 /* matrix_rotation_tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED076FEF2562625D00F76F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = ED076FEE2562625D00F76F9C /* Bow */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ED09A32F25024B1A00A9FFB6 /* Debug */ = {
@@ -441,6 +611,64 @@
 			};
 			name = Release;
 		};
+		ED09A36E25060E2000A9FFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED09A36F25060E2000A9FFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED09A37B2506195900A9FFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				INFOPLIST_FILE = "matrix-rotation-tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.sciencespir.matrix-rotation-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED09A37C2506195900A9FFB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3MBPQ4GQLA;
+				INFOPLIST_FILE = "matrix-rotation-tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.sciencespir.matrix-rotation-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -480,7 +708,109 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		ED09A36D25060E2000A9FFB6 /* Build configuration list for PBXNativeTarget "matrix-rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED09A36E25060E2000A9FFB6 /* Debug */,
+				ED09A36F25060E2000A9FFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED09A37A2506195900A9FFB6 /* Build configuration list for PBXNativeTarget "matrix-rotation-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED09A37B2506195900A9FFB6 /* Debug */,
+				ED09A37C2506195900A9FFB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bow-swift/bow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED076FD42560123800F76F9C /* BowRx */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowRx;
+		};
+		ED076FD62560123800F76F9C /* BowEffectsGenerators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowEffectsGenerators;
+		};
+		ED076FD82560123800F76F9C /* BowRecursionSchemes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowRecursionSchemes;
+		};
+		ED076FDA2560123800F76F9C /* BowEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowEffects;
+		};
+		ED076FDC2560123800F76F9C /* BowRxGenerators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowRxGenerators;
+		};
+		ED076FDE2560123800F76F9C /* BowLaws */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowLaws;
+		};
+		ED076FE02560123800F76F9C /* BowGenerators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowGenerators;
+		};
+		ED076FE22560123800F76F9C /* BowFreeGenerators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowFreeGenerators;
+		};
+		ED076FE42560123800F76F9C /* BowOpticsLaws */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowOpticsLaws;
+		};
+		ED076FE62560123800F76F9C /* Bow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = Bow;
+		};
+		ED076FE82560123800F76F9C /* BowOptics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowOptics;
+		};
+		ED076FEA2560123800F76F9C /* BowFree */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowFree;
+		};
+		ED076FEC2560123800F76F9C /* BowEffectsLaws */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = BowEffectsLaws;
+		};
+		ED076FEE2562625D00F76F9C /* Bow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED076FD32560123800F76F9C /* XCRemoteSwiftPackageReference "bow" */;
+			productName = Bow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED09A32225024B1A00A9FFB6 /* Project object */;
 }

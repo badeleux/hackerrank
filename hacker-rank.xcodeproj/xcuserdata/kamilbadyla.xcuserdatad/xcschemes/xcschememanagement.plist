@@ -4,6 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Rx (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Rx (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Rx (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Tutorial (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Tutorial (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Tutorial (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>climbing-the-leaderboard.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +55,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>matrix-rotation-tests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>matrix-rotation.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>tests.xcscheme_^#shared#^_</key>
 		<dict>
@@ -33,6 +85,16 @@
 			<true/>
 		</dict>
 		<key>ED09A35A250295CD00A9FFB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED09A36825060E2000A9FFB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED09A3742506195900A9FFB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
